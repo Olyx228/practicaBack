@@ -2,5 +2,15 @@
     "name": "olyx228/practica",
     "type": "project",
     "license": "MIT",
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
 }
+
